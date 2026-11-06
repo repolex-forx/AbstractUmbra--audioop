@@ -1,0 +1,34 @@
+{
+  "manifest_version": "1.0",
+  "org": "AbstractUmbra",
+  "repo": "audioop",
+  "versions": [
+    {
+      "commit": "14e6553f7aa49dab825313a06863fc2d134e97da",
+      "parsed_at": "2026-11-06T02:17:48.752064+00:00",
+      "filetree": "filetree/14e6553f7aa49dab825313a06863fc2d134e97da.nq.gz",
+      "blobs": [
+        "blob/f26bcf4d2de6eb136e31006ca3ab447d5e488adf.nq.gz",
+        "blob/0386ed138aa005ece445d57364c5ab03999cf88c.nq.gz",
+        "blob/a8c6575e4299838791348b8bf8808a8a15f38be4.nq.gz",
+        "blob/a68a09f6ae03f83fdbdf278744b94e08700ca048.nq.gz",
+        "blob/95491092723b395c0ff8a0372fe28ea81498dcfb.nq.gz",
+        "blob/3953191f74122435b5d86667af20d01708407e4f.nq.gz",
+        "blob/c6678b5e5f2e1ebdd58aec25ddcd3829452474d4.nq.gz",
+        "blob/50c3e249e18738706f16396ec99d89d0c597e93c.nq.gz",
+        "blob/54d098519e86346a4ae8f9209bf005d949741710.nq.gz",
+        "blob/df439c1ec64cb791cdfc387ca8ab7b111753d541.nq.gz",
+        "blob/996eaf533e64911c055c9fd6a6ef1166a4a4045e.nq.gz",
+        "blob/3dd4922692c90d84fda4583fa04735c1b3cbc9a5.nq.gz",
+        "blob/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391.nq.gz",
+        "blob/2a82275986921b83901264f4ca7f5aaa06644bf5.nq.gz",
+        "blob/ef6472e32d263de24d9a09ab6f522d8f6194341e.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}
