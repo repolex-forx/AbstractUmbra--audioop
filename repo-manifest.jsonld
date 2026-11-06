@@ -8,7 +8,8 @@
     {
       "@id": "https://repolex.ai/r/AbstractUmbra/audioop/commit/14e6553f7aa49dab825313a06863fc2d134e97da",
       "git:hexsha": "14e6553f7aa49dab825313a06863fc2d134e97da",
-      "repolex:parseStatus": "ast_complete"
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-11-06T02:20:13.271757+00:00"
     },
     {
       "@id": "https://repolex.ai/r/AbstractUmbra/audioop/commit/5214340c5a39e0f4e4dd8917a184c4cd42687ffa",
