@@ -1,0 +1,19 @@
+[2026-11-21T23:20:20Z] === ENRICH ITERATION 1 START | repo=AbstractUmbra/audioop sha=14791a05 ===
+[2026-11-21T23:20:20Z] [iter=1] PHASE START: enrich repo=AbstractUmbra/audioop sha=14791a05 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/14791a05-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/14791a05b7f01bbc6e161ab47aa213a0583f8b3b.nq.gz
+[2026-11-21T23:20:20Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-21T23:20:22Z] [iter=1] AST store loaded triples=138148 load_secs=2 mem_mb=270 MB
+[2026-11-21T23:20:22Z] [iter=1] Step 2: Finding LSP targets mem_mb=270 MB
+[2026-11-21T23:20:23Z] [iter=1] LSP targets found call_sites=1130 imports=13 extends=1 implements=0 secs=0
+[2026-11-21T23:20:23Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=270 MB
+[2026-11-21T23:20:23Z] [iter=1] Position index built positions=8295 nodes_with_types=10348 secs=1 mem_mb=270 MB
+[2026-11-21T23:20:23Z] [iter=1] Step 3: Starting LSP resolution mem_mb=270 MB already_completed_types=[] already_completed_files=0
+[2026-11-21T23:20:23Z] [iter=1] Resolving target type target_type=call_site count=1130
+[2026-11-21T23:20:51Z] [iter=1] Target type resolved target_type=call_site resolved=768 errors=0 secs=28 mem_mb=270 MB
+[2026-11-21T23:20:51Z] [iter=1] Resolving target type target_type=import_statement count=13
+[2026-11-21T23:20:51Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=0.5 files_done=0 resolved=0 errors=0 current=audioop/_audioop.c.h
+[2026-11-21T23:20:54Z] [iter=1] Target type resolved target_type=import_statement resolved=11 errors=0 secs=3 mem_mb=270 MB
+[2026-11-21T23:20:54Z] [iter=1] Resolving target type target_type=extends_clause count=1
+[2026-11-21T23:20:56Z] [iter=1] Target type resolved target_type=extends_clause resolved=1 errors=0 secs=1 mem_mb=270 MB
+[2026-11-21T23:21:06Z] [iter=1] Step 5: Writing final enrichment file triples=7866
+[2026-11-21T23:21:06Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/14791a05b7f01bbc6e161ab47aa213a0583f8b3b.nq.gz size_kb=108
+[2026-11-21T23:21:06Z] [iter=1] PHASE END: enrich elapsed_s=46 elapsed_min=0.8 total_triples=7866
