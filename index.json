@@ -3,6 +3,11 @@
   "repo": "audioop",
   "versions": [
     {
+      "commit": "14791a05b7f01bbc6e161ab47aa213a0583f8b3b",
+      "tag": "0.2.2",
+      "parsed_at": "2026-11-21T23:23:39.944382+00:00"
+    },
+    {
       "commit": "14e6553f7aa49dab825313a06863fc2d134e97da",
       "tag": "",
       "parsed_at": "2026-11-06T02:20:13.272217+00:00"

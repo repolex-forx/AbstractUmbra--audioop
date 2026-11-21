@@ -36,9 +36,15 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 .
 ├── aggregate
 │   ├── ast
+│   │   ├── 14791a05b7f01bbc6e161ab47aa213a0583f8b3b
+│   │   │   └── chunk-001.nq.gz
 │   │   └── 14e6553f7aa49dab825313a06863fc2d134e97da
 │   │       └── chunk-001.nq.gz
+│   ├── lsp
+│   │   └── 14791a05b7f01bbc6e161ab47aa213a0583f8b3b.nq.gz
 │   └── repolex
+│       ├── 14791a05b7f01bbc6e161ab47aa213a0583f8b3b
+│       │   └── chunk-001.nq.gz
 │       └── 14e6553f7aa49dab825313a06863fc2d134e97da
 │           └── chunk-001.nq.gz
 ├── blob
@@ -53,6 +59,9 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── a68a09f6ae03f83fdbdf278744b94e08700ca048.nq.gz
 │   ├── a8c6575e4299838791348b8bf8808a8a15f38be4.nq.gz
 │   ├── c6678b5e5f2e1ebdd58aec25ddcd3829452474d4.nq.gz
+│   ├── cdb969d2cfa09c1c53579901881c9723cc382f5d.nq.gz
+│   ├── d0bbc801f3fbbb644bdc13a7f6403ae2b46e0e23.nq.gz
+│   ├── d3334829862074648e105c146d5e7472762ecc38.nq.gz
 │   ├── df439c1ec64cb791cdfc387ca8ab7b111753d541.nq.gz
 │   ├── e69de29bb2d1d6434b8b29ae775ad8c2e48c5391.nq.gz
 │   ├── ef6472e32d263de24d9a09ab6f522d8f6194341e.nq.gz
@@ -61,7 +70,10 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   └── branch.nq.gz
 ├── commit
 │   └── commit.nq.gz
+├── dep
+│   └── 14791a05b7f01bbc6e161ab47aa213a0583f8b3b.nq.gz
 ├── filetree
+│   ├── 14791a05b7f01bbc6e161ab47aa213a0583f8b3b.nq.gz
 │   └── 14e6553f7aa49dab825313a06863fc2d134e97da.nq.gz
 ├── issue
 │   └── issue.nq.gz
@@ -70,7 +82,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 └── tag
     └── tag.nq.gz
 
-13 directories, 23 files
+17 directories, 31 files
 ```
 
 | Directory | What it contains |
@@ -91,4 +103,4 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 [AbstractUmbra/audioop](https://github.com/AbstractUmbra/audioop)
 
 ---
-*Parsed on 2026-11-06 by [repolex](https://repolex.ai)*
+*Parsed on 2026-11-21 by [repolex](https://repolex.ai)*
